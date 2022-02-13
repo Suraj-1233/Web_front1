@@ -1,0 +1,44 @@
+
+ .Formcss{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color:white;
+    font-size: x-large;
+
+    
+ }
+ 
+
+ 
+
+ input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+textarea::-webkit-input-placeholder {
+    font-size: 23px;
+    line-height: 3;
+}
+ 
+ @media(min-width:398px)
+ {
+ .Formcss input
+ {
+     width: 30%;
+     text-align: center;
+     margin-left: 35%;
+
+        
+     
+ }
+ .Formcss textarea
+ {
+     width: 30%;
+     text-align: center;
+     margin-left: 35%;
+
+        
+     
+ }
+ 
+}

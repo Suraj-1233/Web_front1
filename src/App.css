@@ -1,11 +1,15 @@
 .App {
   text-align: center;
+  max-width: 100%;
 }
 
-.App-logo {
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +39,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ .card1{
+   box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin: 6%;
+    justify-content: center;
+ }
+ 
+ .card2{
+   /* margin-left: 3%;
+   margin-top: 3%; */
+   
+ }
+
+.card3{
+
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+   padding: 2%;
+     margin: 2%; 
+      justify-content: center; 
+     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
 }

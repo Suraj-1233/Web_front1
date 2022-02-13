@@ -1,0 +1,14 @@
+.Nevbar1{
+    position:sticky;
+    top: 0%;
+    
+}
+.mobile-nav {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+.Nav{
+    display: flex;
+    flex-direction: row;
+}

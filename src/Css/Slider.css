@@ -1,0 +1,19 @@
+
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .image {
+    height: 20pc;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+ 
+  .image .image {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-size: cover;
+  } 
+  

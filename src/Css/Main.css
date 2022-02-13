@@ -1,0 +1,39 @@
+
+.Main1{
+   
+    display: flex; 
+     flex-direction: row;  
+    
+     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+     /* height:100vh; */
+     /* padding: 5%; */
+     padding-top: 10%;
+     justify-content: center;
+       
+
+       
+ }
+  .image{
+      background-size: cover;
+       box-sizing: border-box;  
+      width: 20%;
+       z-index: index 0.5;
+  }
+  .write{
+    
+     /* background-color: aqua;   */
+     width: 30%;
+  }
+  .varification{
+      display: flex;
+ 
+  }
+ 
+  @media only screen and (max-width: 800px) {
+      .Main1{
+          flex-direction: column;
+      }
+  }
+  
+ 
+ 
