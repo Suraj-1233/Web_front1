@@ -7,9 +7,9 @@ function Affiliated(props) {
 
     <div className='affiliated'>
 
-      <p>Checkout Our State Associations</p>
+      
 
-      <h1> Affiliatednjfgh by SDPF, India</h1>
+      
   
 
       <Carousel>

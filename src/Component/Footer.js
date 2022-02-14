@@ -25,12 +25,15 @@ const Footer = () => {
 				<Row>
 					<div >
 						<Heading>About Us</Heading>
-						<h6>SDPF, India is a Non-Profit organization which give affiliation to State Association, each association with work under the Rule and Regulation of Federation by providing the validation certificate and the validity of membership is subject to renewal of Membership from time to time according to the performance of Individual and Team Work. The affiliated member is bound to comply with the rules, regulation and decision of SDPF - India
+						<h6>Youth & Sports Development Federation Of India (YSDF India) is a non-profit that aims to promote sports, social activities, and physical education among youth and push them towards great success in the sports field by providing them the best training and sports-related national and international opportunities. <br></br>
+						<br></br>Our mission is to produce more gold medalist Indian Olympians because we are a country where 229 million youth lives and we are motivated to provide the best training and opportunities to get them incredible success in the sports field.
 							<br></br>
-							<a href="mailto: sdpfindia@gmail.com">sdpfindia@gmail.com</a>
+							<a href="mailto: ysdfindiaorg@gmail.com 
+">ysdfindiaorg@gmail.com 
+</a>
 							<br></br>
 							mob: -
-							<a href="callto:9699797996">7490827193</a>
+							<a href="callto:7490827193">7490827193</a>
 
 
 						</h6>
@@ -58,23 +61,10 @@ const Footer = () => {
 
 
 
-					<Column>
 
-                    
-						<div class="input-group ">
-							<input type="text" class="form-control  b1 " placeholder="Enter email" aria-label="Recipient's username" >
-							</input>
-							</div>
-						
-						<br>
-						</br>
-						<button class="btn btn-success border-rad b r" type="button" >Register Now</button>
-						
-					</Column>
+				
 
-				</Row>
-
-			</Container>
+			
 			<hr></hr>
 			<Heading>Social Media</Heading>
 			<div className="footeicons">
@@ -107,6 +97,8 @@ const Footer = () => {
 					</i>
 				</FooterLink>
 			</div>
+			</Row>
+			</Container> 
 		</Box>
 	);
 };

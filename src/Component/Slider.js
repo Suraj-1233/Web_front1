@@ -13,34 +13,34 @@ export default function Slider(props) {
   const [items, setItems] = useState(5);
 
   useEffect(() => {
-    if (window.innerWidth < 576 ) setItems(1);
-     if (window.innerWidth > 576 && window.innerWidth < 767) setItems(2);
-     if (window.innerWidth > 767 && window.innerWidth < 1042) setItems(3);
-     if (window.innerWidth > 1042 && window.innerWidth < 1281) setItems(4);
-    
-     
+    if (window.innerWidth < 576) setItems(1);
+    if (window.innerWidth > 576 && window.innerWidth < 767) setItems(2);
+    if (window.innerWidth > 767 && window.innerWidth < 1042) setItems(3);
+    if (window.innerWidth > 1042 && window.innerWidth < 1281) setItems(4);
+
+
 
     window.addEventListener("resize", () => {
       if (window.innerWidth < 576) setItems(1);
-     if (window.innerWidth > 576 && window.innerWidth < 700) setItems(2);
-     if (window.innerWidth > 767 && window.innerWidth < 1042) setItems(3);
-     if (window.innerWidth > 1042 && window.innerWidth < 1281) setItems(4);
-     
+      if (window.innerWidth > 576 && window.innerWidth < 700) setItems(2);
+      if (window.innerWidth > 767 && window.innerWidth < 1042) setItems(3);
+      if (window.innerWidth > 1042 && window.innerWidth < 1281) setItems(4);
+
 
     });
   }, []);
 
   return (
     <div className="App1">
-       <CarouselWrapper items={items} mode="gallery" className="App1"> 
-      <div className='card2'> <Need poster={props.p0} t1={props.t0}  ></Need></div>
-         <div className='card2'> <Need poster={props.p1} t1={props.t1} ></Need></div>
-        <div className='card2'> <Need poster={props.p2}  t1={props.t2}></Need></div>
-        <div className='card2'> <Need poster={props.p3}  t1={props.t3}></Need></div>
+      <CarouselWrapper items={items} mode="gallery" className="App1">
+        <div className='card2'> <Need poster={props.p0} t1={props.t0}  ></Need></div>
+        <div className='card2'> <Need poster={props.p1} t1={props.t1} ></Need></div>
+        <div className='card2'> <Need poster={props.p2} t1={props.t2}></Need></div>
+        <div className='card2'> <Need poster={props.p3} t1={props.t3}></Need></div>
         <div className='card2'> <Need poster={props.p4} t1={props.t4} ></Need></div>
-       
 
-       </CarouselWrapper> 
+
+      </CarouselWrapper>
     </div>
   );
-  }
+}

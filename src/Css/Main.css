@@ -22,7 +22,7 @@
   .write{
     
      /* background-color: aqua;   */
-     width: 30%;
+      width: 100%; 
   }
   .varification{
       display: flex;
@@ -33,7 +33,11 @@
       .Main1{
           flex-direction: column;
       }
+      
   }
   
  
- 
+ .h1{
+     
+     text-align: center;
+ }

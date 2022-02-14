@@ -1,9 +1,10 @@
 
 .photo1{
    
-   display: flex; 
+    display: flex; 
     flex-direction: row;  
-    flex-wrap:nowrap;  
+       
+    justify-content: center;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
       
 }

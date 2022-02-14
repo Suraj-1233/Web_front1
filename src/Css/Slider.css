@@ -16,4 +16,6 @@
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     background-size: cover;
   } 
-  
+.card2{
+   padding: 12%; 
+}

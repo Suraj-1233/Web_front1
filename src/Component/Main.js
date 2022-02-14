@@ -3,11 +3,11 @@ import '../Css/Main.css'
 import Amination from './Amination';
 function Main(props) {
     return (
-        <div className='Main1' style={{display:'flex'}}>
+        <div className='Main1' >
 
-            <div className='write' >
+            <div className='write'  >
 
-                <h1 className='h1'>
+                <h1 className='h1'  >
                     {props.name}
                 </h1>
                 <div className='varification'>
@@ -22,12 +22,13 @@ function Main(props) {
 
             </div>
 
-            <div className='image'>
+            {/* <div className='image'>
                 <Amination image={props.image}></Amination>
-            </div>
+            </div> */}
 
         </div>
 
     )
 };
 export default Main;
+

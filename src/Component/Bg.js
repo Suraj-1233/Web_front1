@@ -7,7 +7,7 @@ function Bg(props) {
       <Image
        //src="https://www.qries.com/images/banner_logo.png"
          src={props.poster}
-
+         
         // width={props.poster[1]}
          
         // width="100px"
