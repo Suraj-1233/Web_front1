@@ -1,7 +1,12 @@
 import React from 'react';
 import '../Css/Photo.css'
 import Amination from './Amination';
-import img from  '../img/reszie1.jpg'
+import img from  '../img/reszie1.jpg';
+import { BrowserRouter as Router, Switch, Route, Link,NavLink } from 'react-router-dom';
+import {
+  withRouter
+} from "react-router-dom";
+import Form from './Form';
 function Photo(props) {
     return (
         <div className='photo1'>
@@ -29,9 +34,13 @@ function Photo(props) {
 
                    </div>
                    </div>
+                   <NavLink to="/login" >
+      verify your cetificate
+        </NavLink>
+                  
 
                   
-                   <button type="button" class="btn btn-danger btn-lg">Verify</button>
+                  
            
 
               

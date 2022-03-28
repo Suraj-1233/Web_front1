@@ -4,6 +4,19 @@
 }
 
 
+.nevbar1{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.b1{
+   
+    margin-top: 3%;
+    margin-right: auto;
+ 
+}
+
+
 
 
 /* .App-logo {

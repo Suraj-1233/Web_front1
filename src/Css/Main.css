@@ -31,7 +31,7 @@
  
   @media only screen and (max-width: 800px) {
       .Main1{
-          flex-direction: column;
+           flex-direction: column; 
       }
       
   }
